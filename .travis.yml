@@ -2,10 +2,11 @@ language: php
 php:
 - 5.6
 script: sudo ./run-tests.sh
-deploy:
-  provider: heroku
-  api_key:
-    secure: TCxTHe+6AhL5hvM80SL97BxFg1SkYuGd9iXUEDiEoJc237o3hYjhaetyu+PvwBy9K5V38IuaZlDy35MkPuVbYGEYOQvR3xZtvvsj5f1pLRa1Mylo6uZikvC9nLWVQx4RsRoCLeO+r7Z9Ap5Q7d44xlW1iTa6t1i2cONEWH+kEZrtWQ727JLBkxtNfAB8Po/LdTqCeeJBkEyqaHQVrrLGCgdz6D5Be1DWgM0utZepjgMiJDMgLVlE8JAndL0dTT/UXfSzppsWD+PM2aN5rgvhgpB+PwLnIo2ERqutgHfnWKtJ4Yrw/fLH370BHq7uVNSi36RngdfVkl+keViCCaWpT1rk2FqOX6kw7ene0UBqAKk+9W3NuTIxOKeqxh6eLxcaQwboaWphGi8swjemaIU/Em1TbBVjV38Lqgyb60K8E2ileVrXUrgHGW/UA0ru43s+3VfZnZuL+qVNCrlLBDukD09i+CJ7sIRKyleW3GufWzA5Xsdnvh1iMkhSw5ThD2BdEF1k+8h1E4wCvaH7BceN3lQ9wkH4lRtyTg9Y/RCv9cpykTDpU/a5SNWKLPqQSgimOUtAOLN0KiVyLeWU0lc3Mnt5oVNbBRO4/04JxqqETt3c+c3dX6WzqpEIfil+dXOoK9QfLqznsNn5W/fmpelhiQ6sn7/dxPW6vV+FueG6RYU=
-  app: pimcore
-  on:
-    repo: megahoy/pimcore
+
+#deploy:
+#  provider: heroku
+#  api_key:
+#    secure: TCxTHe+6AhL5hvM80SL97BxFg1SkYuGd9iXUEDiEoJc237o3hYjhaetyu+PvwBy9K5V38IuaZlDy35MkPuVbYGEYOQvR3xZtvvsj5f1pLRa1Mylo6uZikvC9nLWVQx4RsRoCLeO+r7Z9Ap5Q7d44xlW1iTa6t1i2cONEWH+kEZrtWQ727JLBkxtNfAB8Po/LdTqCeeJBkEyqaHQVrrLGCgdz6D5Be1DWgM0utZepjgMiJDMgLVlE8JAndL0dTT/UXfSzppsWD+PM2aN5rgvhgpB+PwLnIo2ERqutgHfnWKtJ4Yrw/fLH370BHq7uVNSi36RngdfVkl+keViCCaWpT1rk2FqOX6kw7ene0UBqAKk+9W3NuTIxOKeqxh6eLxcaQwboaWphGi8swjemaIU/Em1TbBVjV38Lqgyb60K8E2ileVrXUrgHGW/UA0ru43s+3VfZnZuL+qVNCrlLBDukD09i+CJ7sIRKyleW3GufWzA5Xsdnvh1iMkhSw5ThD2BdEF1k+8h1E4wCvaH7BceN3lQ9wkH4lRtyTg9Y/RCv9cpykTDpU/a5SNWKLPqQSgimOUtAOLN0KiVyLeWU0lc3Mnt5oVNbBRO4/04JxqqETt3c+c3dX6WzqpEIfil+dXOoK9QfLqznsNn5W/fmpelhiQ6sn7/dxPW6vV+FueG6RYU=
+#  app: pimcore
+#  on:
+#    repo: megahoy/pimcore
