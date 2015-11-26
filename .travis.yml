@@ -1,0 +1,13 @@
+language: php
+
+#notifications:
+#  email:
+#    - sergey.stribaylo@gmail.com
+
+php:
+  - 5.6
+
+before_script:
+  # install nginx
+  - sudo apt-get update
+  - sudo apt-get install nginx
