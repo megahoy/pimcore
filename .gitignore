@@ -1,2 +1,4 @@
 /nbproject/*
 /website/var/log/*
+/website/var/tmp/*
+/website/var/versions/document/*
